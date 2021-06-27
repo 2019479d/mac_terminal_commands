@@ -1,0 +1,23 @@
+Shift between jdks:  
+jenv global oracle64-1.6.0.39
+jenv local oracle64-1.6.0.39
+jenv shell oracle64-1.6.0.39
+
+Git configuration:
+git config --global user.name "<Your-Full-Name>"
+git config --global user.email "<your-email-address>"
+git config --list
+git config --global -e
+
+/usr/libexec/java_home -V		-> jdk paths
+
+Jenv:
+jenv add <jdk path(/Library/java/...)> 	-> add jdk to jenv 
+
+source ~/.zshrc	-> refresh the terminal
+ls -a	-> show all hidden files and folders
+mkdir <folder name>	-> create a folder
+touch <file name.extension>	-> create a file 
+vim <file_name.extension>		-> open a file with vim editor
+
+
