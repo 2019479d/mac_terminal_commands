@@ -20,7 +20,3 @@ mkdir <folder name>	-> create a folder
 touch <file name.extension>	-> create a file 
 vim <file_name.extension>		-> open a file with vim editor
 
-
-
-Testing 1
-
