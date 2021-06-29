@@ -6,19 +6,31 @@ jenv shell oracle64-1.6.0.39
 Git configuration:
 git config --global user.name "<Your-Full-Name>"
 git config --global user.email "<your-email-address>"
-git config --list
-git config --global -e
+git config --list	-> git configuration list
+git config --global -e	-> git configuration details (global)
 
-/usr/libexec/java_home -V		-> jdk paths
+Creating a git repository from terminal:
+git init	-> initializing a git repository
+-> adding some files
+git add .	-> adding all the file to the staging area
+git add file1<space>file2	-> adding mentioned files to the staging area
+git add *.txt	-> adding all the files with 'txt' extension to the staging area
+git commit -m "Message"	-> commiting files with a 1 line message
+git commit	-> commiting files with a long message
+-> creating a git repository in the github
+git remote add origin https://github.com/username/new_repo
+git push -u origin master
 
 Jenv:
 jenv add <jdk path(/Library/java/...)> 	-> add jdk to jenv 
 
+Other terminal commands:
 source ~/.zshrc	-> refresh the terminal
 ls -a	-> show all hidden files and folders
 mkdir <folder name>	-> create a folder
 touch <file name.extension>	-> create a file 
 vim <file_name.extension>		-> open a file with vim editor
+/usr/libexec/java_home -V	-> jdk paths
 
 Flutter commands: 
 flutter doctor	-> check issues with flutter
