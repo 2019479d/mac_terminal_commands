@@ -1,0 +1,9 @@
+vertual environment -->
+
+pip3 --version      -> find the pip3 version and the location
+pip3 install virtualenv - install the 'vritualenv' package gloabally
+virtualenv <venv_name>      ->  go to the project folder and initialize the virtual environment
+source <venv_name>/bin/activate      -> activate the virtual environment 
+deactivate      -> deactivate the virtual environment
+pip3 install <package_name>     -> install packages to virtual environment
+
