@@ -1,0 +1,26 @@
+Git commands -->
+
+Git configuration:
+git config --global user.name "<full-Name>"
+git config --global user.email "<email-address>"
+git config --list	-> git configuration list
+git config --global -e	-> git configuration details (global)
+
+Creating a git repository from terminal:
+-> create a folder
+git init	-> initializing a git repository
+-> create a git repository in the github
+git remote add origin https://github.com/username/new_repo
+git push -u origin master
+git add .	-> adding all the file to the staging area
+git commit -m "Message"	-> commiting files with a 1 line message
+
+Other git commands:
+git add file1<space>file2	-> adding mentioned files to the staging area
+git add *.txt	-> adding all the files with 'txt' extension to the staging area
+git commit	-> commiting files with a long message
+git status  -> display git status
+git status -s -> display git status in short
+
+Git automation commands:
+create <folder_name>    -> create a new repository
