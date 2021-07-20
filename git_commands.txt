@@ -21,6 +21,8 @@ git add *.txt	-> adding all the files with 'txt' extension to the staging area
 git commit	-> commiting files with a long message
 git status  -> display git status
 git status -s -> display git status in short
+git reset	-> undo 'git add'
+git reset <file_or_folder_name>	-> undo a certain added file or folder
 
 Git automation commands:
 create <folder_name>    -> create a new repository
