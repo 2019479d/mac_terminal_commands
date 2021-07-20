@@ -1,0 +1,36 @@
+Terminal commands -->
+
+source ~/.zshrc	-> refresh zshrc
+source ~/.zprofile	-> refresh zprofile
+source <file_name.sh/.file_name>	-> refresh a script file
+
+ls      -> list of all files and folders in the folder
+ls -a	-> display all hidden files (files starting with a '.')
+ls -al  -> display a detailed list of all hidden files 
+
+mkdir <folder name>	-> create a folder
+touch <file name.extension>	-> create a file
+vim <file_name.extension>		-> open a file with vim editor
+nano <file_name.extension>      -> open a file with nano editor
+open .      -> open finder from terminal
+open <path> (e.g. -> $ open Documents/folder)    -> open a cretain path
+
+/usr/libexec/java_home -V	-> jdk paths
+open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app		-> open ios emulator
+
+Command 'man': 
+man <command> (e.g -> $ man ls)	-> gives the full description of ls command including it's flags such as -a, -l
+
+Delete files and folders:
+rm <file_name>	-> remove/delete a file permanantly
+rmdir <folder_name>	-> remove/delete an empty folders
+rm -r <folder_name>	-> remove/delete a folder including files in it
+
+Switch between termianl profiles:
+chsh -s /bin/bash       -> switch to bash terminal
+chsh -s /bin/zsh        -> swith to zsh terminal
+
+mv <file/path> <new/file/path>      -> move file to another folder
+mv <file_name> <new_file_name>      -> rename a file
+cp <path> <new/path>  -> copy and paste a file or folder(empty) in a new location
+cp -R <path> <new/path>  -> copy and paste a folder(with contents) in a new location
