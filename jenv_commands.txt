@@ -1,0 +1,9 @@
+Jenv commands -->
+
+Shift between jdks:  
+jenv global oracle64-1.6.0.39
+jenv local oracle64-1.6.0.39
+jenv shell oracle64-1.6.0.39
+
+Other jenv commands:
+jenv add <jdk path(/Library/java/...)> 	-> add jdk to jenv 
