@@ -1,0 +1,6 @@
+Flutter commands -->
+
+flutter --version       -> check the flutter version
+flutter doctor	    -> check issues with flutter
+flutter create <file name>	    -> create a new flutter project
+flutter run	    -> run flutter project
