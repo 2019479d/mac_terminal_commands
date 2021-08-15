@@ -34,3 +34,6 @@ mv <file/path> <new/file/path>      -> move file to another folder
 mv <file_name> <new_file_name>      -> rename a file
 cp <path> <new/path>  -> copy and paste a file or folder(empty) in a new location
 cp -R <path> <new/path>  -> copy and paste a folder(with contents) in a new location
+
+To enable "code ." command add this to ~/.zshrc or ~/.zprofile :
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
