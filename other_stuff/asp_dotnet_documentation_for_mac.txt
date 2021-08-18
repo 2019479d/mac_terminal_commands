@@ -1,0 +1,37 @@
+.NET Core Application:
+
+<-- Main steps only -->
+
+Step 1 -->
+Open visual studio and create a asp.net empty project
+Select ".NET 3.1"
+Uncheck the "Configure for HTTPS checkbox"
+
+Step 2 -->
+Add NuGet packages: Project -> Manage NuGet Packages
+Packages:
+	Microsoft.EntityFramworkCore.Tools (version: 3.1.10)
+	Microsoft.EntityFrameworkCore.Design (version: 3.1.10)
+	Microsoft.EntityFrameworkCore.SqlServer (version: 3.1.10)
+	MySQL.Data (version: 8.0.26 or latest)
+	MySQL.Data.EntityFrameworkCore (version: 8.0.22)
+
+Step 3 -->
+Add "services.AddMvc();" in ConfigureServices (StartUp.cs)
+Create public property Configuration(IConfiguration)
+Create constructor
+
+Step 4 -->
+Update appSettings.json file
+Then update StartUp.cs
+
+Step 5 -->
+Create Models folder and add relevant classes
+Create Services folder and add "DbContext" with a relevant name
+Add Database.Migrate(); in the constructor of DbContext class
+Run commands in the project folder:
+	dotnet ef migrations add InitialMigration	-> Create migrations. "InitialMigration" is the name
+	dotnet ef database update InitialMigration	-> Update database
+
+Step 6 -->
+Do the rest... 
