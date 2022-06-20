@@ -6,4 +6,4 @@ virtualenv <venv_name>      ->  go to the project folder and initialize the virt
 source <venv_name>/bin/activate      -> activate the virtual environment 
 deactivate      -> deactivate the virtual environment
 pip3 install <package_name>     -> install packages to virtual environment
-
+pip freeze -> can see all the packages what included 
